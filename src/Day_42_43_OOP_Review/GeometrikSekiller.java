@@ -1,4 +1,4 @@
-package Day_42_OOP_Review;
+package Day_42_43_OOP_Review;
 
 public class GeometrikSekiller {
 

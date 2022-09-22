@@ -1,4 +1,4 @@
-package Day_42_OOP_Review;
+package Day_42_43_OOP_Review;
 
 public class StaticCalısma {
     public static  int x=5;
@@ -10,7 +10,8 @@ public class StaticCalısma {
     }
     public static void staticMetot(){
         System.out.println(x);
-//        System.out.println(y); static olmayanlar static metot içerisinde kkullanılamazllar.
+//        System.out.println(y);
+//        static olmayanlar static metot içerisinde kkullanılamazllar.
 //        normalMetot();
     }
 }
