@@ -1,4 +1,4 @@
-package Day_36;
+package Day_28_Array3.Day_36;
 
 public class VanKedisi extends Cat{
     boolean isDifferentAyes;
