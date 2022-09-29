@@ -1,0 +1,15 @@
+if the variable in the parent class is difined whit same name,
+signature in the child class.
+there is two referance situation
+one of then from child class
+one of then from parent class
+
+if we are referancing from child class
+     variable in the child class is used
+
+     if we are referancing from parent class
+          variable in the parent class is used
+
+          ** closed one is used
+
+          ----
