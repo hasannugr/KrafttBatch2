@@ -1,9 +1,6 @@
 package Day_49_Collection_Cont;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Iterator;
+import java.util.*;
 
 public class Iterating {
         public static void main (String[]args){
@@ -52,6 +49,12 @@ public class Iterating {
 
 //        System.out.println("myIter.hasNext() = " + myIter.hasNext());
 //        System.out.println("myIter.next() = " + myIter.next());
+
+
+            // list ıtarator
+
+
+
 
 
         }
