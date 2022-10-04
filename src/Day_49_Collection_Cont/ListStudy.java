@@ -2,6 +2,12 @@ package Day_49_Collection_Cont;
 
 import java.util.*;
 
+
+// EN ÖNEMLİ LİST ÖZELLİKLERİ;
+//1- EKLEME SIRASINA GÖRE VERİLERİ SIRALI BİR ŞEKİLDE DEPOLAR.
+//2- AYNI VERİLERİ KABUL EDER.
+//3- BOYUTU ARTTIRILABİLİR.
+
 public class ListStudy {
     public static void main(String[] args) {
         List<Integer> lst
