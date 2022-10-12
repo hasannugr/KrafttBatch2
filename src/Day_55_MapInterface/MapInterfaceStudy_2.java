@@ -15,16 +15,22 @@ public class MapInterfaceStudy_2 {
         ageMap.put("Veli",24);
         ageMap.put("Ahmet",45);
 
+
         //how to collect all keys of map
         //set<K>  keySet()
         //Returns a "set view" of the keys contained in the map
+        // Map in içindeki key leri bir set göürünümünde geri alıyoruz.
 
         Set<String> stringSet = ageMap.keySet();
         System.out.println("stringSet = " + stringSet);
         //[Ayşe, Ahmet, Veli, Zeynep, Mehmet, Osman, Hatice, Metin]
 
         //How to remove a key which have specific value
-        //how to convert a new map from current map
+        //Belirli bir değeri olan bir key nasıl kaldırılır.
+
+        //how to convert a new map from current map?
+        //mevcut haritadan yeni bir harita nasıl dönüştürülür?
+
         //take a new map of person mapped ages should be under 25
 
         //[Ayşe, Ahmet, Veli, Zeynep, Mehmet, Osman, Hatice, Metin]
@@ -38,13 +44,17 @@ public class MapInterfaceStudy_2 {
         System.out.println("ageMap = " + ageMap);
 //        {Ayşe=22, Veli=24, Zeynep=24, Mehmet=25, Hatice=24}
 
+
+
         for (String eachKey : stringSet){
+            // sağ tarafta olanın içerisindekileri sol tarafa ata.
             System.out.println("eachKey = " + eachKey
             +" -->"+ageMap.get(eachKey));
         }
 
         //Collection<V>   values()
         //Returns a "Collection view" of the values contained in the map
+        //Map bulunan değerlerin "Koleksiyon görünümünü" döndürür.
        Collection<Integer> values = ageMap.values();
         System.out.println("values = " + values);
         //[22, 24, 24, 25, 24]
@@ -89,8 +99,7 @@ public class MapInterfaceStudy_2 {
 
         /////////////////////////////////////////
 
-        NavigableMap<Integer,String> navMap =
-                new TreeMap<>();
+        NavigableMap<Integer,String> navMap = new TreeMap<>();
         navMap.put(25,"Mehmet");
 //        navMap.put(24,"Hatice");
         navMap.put(22,"Ayşe");
