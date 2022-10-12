@@ -1,0 +1,33 @@
+There are four access modifier in java
+ - public
+ - default
+ - protected
+ - private
+  * variables,constructor and methods are they can take access modifier.
+
+  ** public **
+  the access level is everywhere.
+  what does it mean everywhere ?
+   - current class- outside the current class within package- outsize package.
+
+   ** default **
+   The access level is only within package
+   if we do not type any access modifier, it will be default.
+
+   ** protected **
+  if there is not any relation between class, protected access modifier is like default.
+  but there is parent- child relation between class,
+  child class can reach parent class, even if it is outside the package(for data memner and methods)
+
+  ** private **
+   The access leven is only within class.
+   it cannot reach from outside the class.
+
+  ** private constroctur role **
+   you connot create the instance out of class.
+
+   **method overloading**
+   not be more restrictive overriding method in child class
+
+  ** local veriables**
+  dont have access modifier

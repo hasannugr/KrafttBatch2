@@ -1,0 +1,18 @@
+Abstraction
+Abstract class ve Interface yapıları ile abstraction sağlayabiliyoruz.
+
+1-Abstarct class dan instantiate yapamıyoruz.
+2-Abstract class lar içinde abstract methodlar oluşturabiliriz.
+3-Abstract methodalrda imlement yapamayız. Method body leri yok.
+4-ilk concrate class da imlement yapılır.
+5-Abstract class da non-abstract method olabilir.
+6-Abstract class da cunstructor olur.
+7-Abstract class larda blocks olabilir.
+8-Abstract class da static method olabilir
+9-Abstract class lar non -abstract class lara extend olabilir.
+10-Abstract class başka bir abstract class extends olabilir.
+11-Abstract methodlar final ve private olamaz.
+12-Abstract method static olamaz,privateolamaz, final olamaz.
+13-Abstarct methods protected olabilir.
+14-Abstract class lar multiple inheritance olamaz.
+15-Abstract classa extends olan bir baska abstract class implementasyon gorevi ustlenmeybilir.
