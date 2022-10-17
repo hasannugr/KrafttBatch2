@@ -12,7 +12,9 @@ public class B18_Garbage {
         str2 = null;
 
         //how/when to send an abject to garbage collection.
+        // ne zaman bir obge garbega atılır.
         //if an object being without reference it will throw garbage collection.
+        // referanssız kaldığında.
     }
 
 
