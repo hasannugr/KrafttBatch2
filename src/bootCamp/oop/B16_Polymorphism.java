@@ -15,6 +15,8 @@ public class B16_Polymorphism {
 
     //parent type decides which can be accessible
     //object type decides which implementation to the executed
+    // hangi metotun yürütüieceğine karar verir.
+    // yani eşitliğin sağ tarafında olan da yoksa override edilen yerden metotdu alır
 
     //static polymorphism--compile time polymorphism--method overloading
     //dynamic polymorphism--runtime polymorphism--method overriding
